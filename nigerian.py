@@ -20,10 +20,13 @@ def multply(bill, tip):
     finaltip = tip/100
     totalpay = bill*finaltip + bill
     print(totalpay)
-multply(20, 50)
 
 
 
+sentence = input('write a sentence: ')
+broken = sentence.split()
+
+print(len(broken))
 
 
 
