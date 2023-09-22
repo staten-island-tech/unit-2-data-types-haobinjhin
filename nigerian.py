@@ -16,8 +16,19 @@ def factor(number, number2):
             print(i)
     
 
+def multply(bill, tip):
+    finaltip = tip/100
+    totalpay = bill*finaltip + bill
+    print(totalpay)
+multply(20, 50)
 
 
+
+
+
+
+#.split splits the sentence into strings
+#len() tells the length of the sentence 
 
 
 
