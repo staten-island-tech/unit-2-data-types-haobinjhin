@@ -16,11 +16,24 @@ def factor(number, number2):
             print(i)
     
 
-def multply(bill, tip):
+def multiply(bill):
+    service = input(f"How's the service?: ")  
+    if service == "bad":
+            tip = 0
+    if service == "okay":
+            tip = 15
+    if service == "good":
+            tip = 20
+    if service == "excellent":
+            tip = 25
+                           
     finaltip = tip/100
     totalpay = bill*finaltip + bill
-    print(totalpay)
 
+    print(totalpay)
+multiply(200)
+
+    
 
 
 #sentence = input('write a sentence: ')
@@ -41,6 +54,10 @@ def mommamia(num):
 
     return(list)
 
+#list = [] makes a list
+#list.append(i) puts stuff in a list
+#return(list) returns anything
+
 def gcf(x, y):
     XList = mommamia(x)
     YList = mommamia(y)
@@ -53,8 +70,7 @@ def gcf(x, y):
 
 
 
-mommamia(10)
-gcf(40,10)
+
 
 
 
