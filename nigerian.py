@@ -23,20 +23,38 @@ def multply(bill, tip):
 
 
 
-sentence = input('write a sentence: ')
-broken = sentence.split()
+#sentence = input('write a sentence: ')
+#broken = sentence.split()
 
-print(len(broken))
+
 
 
 
 #.split splits the sentence into strings
 #len() tells the length of the sentence 
 
+def mommamia(num):
+    list = []
+    for i in range(1, num + 1):
+        if num%i == 0:
+            list.append(i)
+
+    return(list)
+
+def gcf(x, y):
+    XList = mommamia(x)
+    YList = mommamia(y)
+    GCF = 1
+
+    for i in XList:
+        if i in YList:
+            GCF = max(GCF, i)
+    print(GCF)
 
 
 
-
+mommamia(10)
+gcf(40,10)
 
 
 
