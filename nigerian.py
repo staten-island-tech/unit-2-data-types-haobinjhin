@@ -31,17 +31,9 @@ def multiply(bill):
     totalpay = bill*finaltip + bill
 
     print(totalpay)
-multiply(200)
-
-    
-
 
 #sentence = input('write a sentence: ')
 #broken = sentence.split()
-
-
-
-
 
 #.split splits the sentence into strings
 #len() tells the length of the sentence 
@@ -69,8 +61,16 @@ def gcf(x, y):
     print(GCF)
 
 
-
-
+east = input(f'Traffic is east: ')
+west = input(f'Traffic is west: ')
+if east and west == 'true':
+     print('false')
+if east and west == 'false':
+     print('true')
+if east == 'true' and west == 'false':
+     print('true')
+if east == 'false' and west == 'true':
+     print('true')
 
 
 
