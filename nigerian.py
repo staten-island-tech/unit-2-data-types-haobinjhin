@@ -61,20 +61,18 @@ def gcf(x, y):
     print(GCF)
 
 
-east = input(f'Traffic is east: ')
-west = input(f'Traffic is west: ')
-if east and west == 'true':
-     print('false')
-if east and west == 'false':
-     print('true')
-if east == 'true' and west == 'false':
-     print('true')
-if east == 'false' and west == 'true':
-     print('true')
 
 
+def XY(x,y):
+    if type(x) != bool or type(x) != bool:
+        print("it's wrong")
+    else:
+         if x == y:
+             print('false')
+         if not(x == y):
+             print('true')
 
-
+XY(True,False)
 
 
 
