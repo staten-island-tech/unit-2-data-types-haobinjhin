@@ -64,7 +64,7 @@ def gcf(x, y):
 
 
 def XY(x,y):
-    if type(x) != bool or type(x) != bool:
+    if type(x) != bool or type(y) != bool:
         print("it's wrong")
     else:
          if x == y:
