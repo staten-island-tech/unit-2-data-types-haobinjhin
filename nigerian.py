@@ -75,8 +75,17 @@ def XY(x,y):
 GCF = [1,3,4,8]
 b = max(GCF)
 
-
-
+def math(x,y):
+    if x + y > 10:
+         a = x*y
+         print(a)
+    elif x + y < 10:
+         b = x/y
+         print(b)
+    else:
+         print(69420)
+    
+math(1,2)
 
 
 
