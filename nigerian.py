@@ -72,7 +72,11 @@ def XY(x,y):
          if not(x == y):
              print('true')
 
-XY(True,False)
+GCF = [1,3,4,8]
+b = max(GCF)
+
+
+
 
 
 
