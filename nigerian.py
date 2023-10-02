@@ -84,9 +84,10 @@ def math(x,y):
          print(b)
     else:
          print(69420)
+
+
+
     
-math(1,2)
-
-
-
+def truthtable(x,y):
+     if x==y:
 
