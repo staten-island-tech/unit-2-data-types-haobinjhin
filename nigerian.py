@@ -88,6 +88,6 @@ def math(x,y):
 
 
     
-def truthtable(x,y):
-     if x==y:
+XY(True,  False)
+          
 
