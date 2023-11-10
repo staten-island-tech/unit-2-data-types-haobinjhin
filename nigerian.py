@@ -14,6 +14,9 @@ def factor(number, number2):
     for i in range (1, number2 + 1):
         if number%i == 0:
             print(i)
+
+
+     
     
 
 def multiply(bill):
