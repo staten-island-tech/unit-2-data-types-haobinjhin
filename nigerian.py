@@ -6,21 +6,24 @@ def odd(number):
         print("odd")
 
 
-def factor(number, number2):
-    print(f"the factors of {number} and {number2} is: ")
+def factor(number):
+    print(f"the factors of {number}: ")
     for i in range (1, number + 1):
         if number%i == 0:
             print(i)
-    for i in range (1, number2 + 1):
-        if number%i == 0:
-            print(i)
 
-
-     
+def commonfactor(a,b):
+     A = factor(a)
+     B = factor(b)
+     for i in range(1, a + b):
+          if A[i] == B[i]:
+               print(i)
+               break
+commonfactor(15,48)          
     
 
 def multiply(bill):
-    service = input(f"How's the service?: ")  
+    service = (input(f"How's the service?: ")).lower()
     if service == "bad":
             tip = 0
     if service == "okay":
@@ -41,27 +44,13 @@ def multiply(bill):
 #.split splits the sentence into strings
 #len() tells the length of the sentence 
 
-def mommamia(num):
-    list = []
-    for i in range(1, num + 1):
-        if num%i == 0:
-            list.append(i)
 
-    return(list)
 
 #list = [] makes a list
 #list.append(i) puts stuff in a list
 #return(list) returns anything
 
-def gcf(x, y):
-    XList = mommamia(x)
-    YList = mommamia(y)
-    GCF = 1
 
-    for i in XList:
-        if i in YList:
-            GCF = max(GCF, i)
-    print(GCF)
 
 
 
@@ -91,6 +80,6 @@ def math(x,y):
 
 
     
-XY(True,  False)
+
           
 
